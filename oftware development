@@ -1,0 +1,13 @@
+[1mdiff --git a/Generators/main.js b/Generators/main.js[m
+[1mindex e31750d..94598a0 100644[m
+[1m--- a/Generators/main.js[m
+[1m+++ b/Generators/main.js[m
+[36m@@ -16,7 +16,7 @@[m [mfor (let i = start; start <= end; i++) {[m
+   yield i   [m
+ }[m
+ }[m
+[31m-const gen =  generatorParams()[m
+[32m+[m[32mconst gen =  generatorParams(6,10)[m
+ for (let value of gen){[m
+ console.log(value)[m
+ }[m
